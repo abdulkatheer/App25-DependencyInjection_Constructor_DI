@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="course1" class="org.katheer.bean.Course">
+        <constructor-arg value="C-101"/>
+        <constructor-arg value="Java"/>
+        <constructor-arg value="20000"/>
+    </bean>
+
+    <bean id="course2" class="org.katheer.bean.Course">
+        <constructor-arg value="C-101"/>
+        <constructor-arg value="Java"/>
+    </bean>
+
+    <bean id="course3" class="org.katheer.bean.Course">
+        <constructor-arg value="C-101"/>
+    </bean>
+
+    <bean id="course4" class="org.katheer.bean.Course"/>
+</beans>
